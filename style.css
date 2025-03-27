@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    font-family: 'Playfair Display', serif;
+    font-weight: 0;
+    background-color: bisque;
+}
+#input{
+     width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 4em;
+    color: brown;
+
+}
+p{
+    font-size: 2em;
+    margin: 10px;
+}
+#number{
+    width:150px;
+    height: 50px;
+    font-size:2em;
+    padding : 0px 10px;
+
+
+}
+#button{
+    width:130px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: red;
+    color: yellow;
+}
+
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    background-color: orangered;
+}.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 0; /* Removes rounding */
+}
+
+.rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(134, 104, 190);
+    flex-wrap: wrap; 
+    border-radius: 0; 
+    gap: 10px;
+} 
+.rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(134, 104, 190);
+    flex-wrap: wrap; 
+    border-radius: 0; 
+    gap: 10px;
+} 
+.pentagon {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    margin: 10px;
+}
+
+
